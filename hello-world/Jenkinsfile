@@ -8,27 +8,27 @@ pipeline {
         }
         stage('Compile') {
             steps {
-                echo 'Compile the source code or dont, its your choice :)' 
+                echo 'This is the 3rd time I am performing this experiment' 
             }
         }
         stage('Security Check') {
             steps {
-                echo 'Run the security check against the application' 
+                echo 'First time, I did not have a pc' 
             }
         }
         stage('Run Unit Tests') {
             steps {
-                echo 'Run unit tests from the source code' 
+                echo 'Second Time I forgot to take screenshots and lost all my data' 
             }
         }
         stage('Run Integration Tests') {
             steps {
-                echo 'Run only crucial integration tests from the source code' 
+                echo 'Third Time is the Charm 🤞' 
             }
         }
         stage('Publish Artifacts') {
             steps {
-                echo 'Save the assemblies generated from the compilation' 
+                echo "Or atleast  hope so :')" 
             }
         }
     }
